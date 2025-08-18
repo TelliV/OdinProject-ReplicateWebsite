@@ -15,3 +15,11 @@ div{
 .quote{
     background-color: #e5e7eb;
 }
+
+#headerlogo{
+    width: 30px;
+    height: auto;
+}
+p{
+    color: white;
+}

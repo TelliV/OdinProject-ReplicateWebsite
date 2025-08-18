@@ -7,8 +7,11 @@ div{
 .intro,
 .footer{
     background-color: #1f2937;
-    padding: 20px;
     text-align: center;
+}
+
+.sections{
+    padding: 20px 200px;
 }
 
 .quote{

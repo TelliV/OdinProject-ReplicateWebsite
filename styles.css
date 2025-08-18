@@ -29,13 +29,7 @@ div{
 
 .intro{
     height:auto;
-    & > h1{
-        color: white;
-        font-size: 2em;
-    }
-    & > p{
-    color: white;
-    }
+    color:white;
 }
 
 .info{
@@ -44,4 +38,7 @@ div{
         width: 100px;
         height: auto;
     }
+}
+.footer{
+    color:white;
 }

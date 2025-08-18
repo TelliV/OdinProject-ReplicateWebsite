@@ -25,5 +25,8 @@ p{
 }
 .intro{
     height:250px;
-    
+    & > h1{
+        color: white;
+        font-size: 2em;
+    }
 }

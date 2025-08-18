@@ -3,3 +3,15 @@ div{
     height:200px;
     width:auto;
 }
+
+.header,
+.intro,
+.footer{
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}

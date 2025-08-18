@@ -1,3 +1,6 @@
+*{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 div{
     outline:2px solid blue;
 
@@ -12,7 +15,7 @@ div{
 
 .sections{
     padding: 20px 200px;
-    margin: 0 -1em;
+    margin:0 -0.5em;
 }
 
 .quote{
@@ -25,10 +28,41 @@ div{
 }
 
 .header{
-    height:auto;
-    & > a{
-        color:white;
+    margin-top:-0.5em;
+    height:30px;
+    color:#e5e7eb;
+    display: flex;
+
+    & > a, div{
+        flex:1;
+        outline:none;
+    } 
+    & > img{
+        width:50px;
+        height: auto;
+        flex:0.25;
     }
+}
+div.link_container{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    gap:30px;
+    align-items: center;
+    font-size: 18px;
+}
+div.filler{
+    display:flex;
+    flex:1.5;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 22px;
+    color:white;
+}
+
+
+.header .filler{
+    width:300px;
 }
 
 .intro{
@@ -45,4 +79,6 @@ div{
 }
 .footer{
     color:white;
+    margin-bottom: -0.6em;
 }
+

@@ -20,13 +20,29 @@ div{
     width: 30px;
     height: auto;
 }
-p{
-    color: white;
+
+.header{
+    height:auto;
+    & > a{
+        color:white;
+    }
 }
+
 .intro{
-    height:250px;
+    height:auto;
     & > h1{
         color: white;
         font-size: 2em;
+    }
+    & > p{
+    color: white;
+    }
+}
+
+.info{
+    height:auto;
+    & > img{
+        width: 100px;
+        height: auto;
     }
 }

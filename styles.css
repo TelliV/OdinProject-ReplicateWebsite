@@ -3,7 +3,6 @@
 }
 div{
     outline:2px solid blue;
-
 }
 
 .header,
@@ -174,6 +173,51 @@ div.filler{
     text-align: left;
     color: #1f2937;
     margin: 20px 0;
+}
+
+.invitation-container{
+    margin:5em;
+    display: flex;
+    padding: 20px 7em;
+    align-items:center;
+    gap:5em;
+
+    background-color: #3882f6;
+    border-radius: 10px;
+    color:#F9FAF8;
+}
+
+.invitation-container > div{
+    width: 1000px;
+    text-align:left;
+    padding-right: 40px;
+}
+
+.invitation-container > div > h3{
+    font-size: 24px;
+    color:#F9FAF8;
+    margin-bottom: -0.5em;
+}
+
+.invitation-container > div > p{
+    font-size: 18px;
+    color:#D1D5DB;
+}
+
+.invitation-container > button{
+    background-color: #3B82F6;
+    width: 200px;
+    color:white;
+    border:none;
+    padding: 10px 20px;
+    outline: 4px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer{
+    color:#D1D5DB;
 }
 
 

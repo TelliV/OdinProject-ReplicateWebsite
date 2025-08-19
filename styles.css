@@ -108,9 +108,56 @@ div.filler{
         width: 100px;
         height: auto;
     }
+
 }
 .footer{
     color:white;
     margin-bottom: -0.6em;
+}
+
+.info{
+    text-align: center;
+    padding: 20px 300px;
+    & > h1{
+        font-size: 36px;
+        color:#1F2937;
+        font-weight: 900;
+    }
+    & > div{
+        outline:none;
+    }
+}
+
+.item-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+   margin-bottom: 8em;
+   outline:none;
+}
+
+.item-container .item{
+    padding: 0 2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    outline:none;
+
+    &>img{
+        padding: 1em;
+        width: 130px;
+        height: auto;
+        margin: 0 10px;
+        outline: 5px solid #3882f6;
+        border-radius: 7px;
+        margin:0.5em;
+    }
+    & > p{
+        font-size: 18px;
+        color: #1e2937;
+        margin: 10px 0;
+    }
+
 }
 

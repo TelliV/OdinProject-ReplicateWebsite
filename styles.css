@@ -161,3 +161,20 @@ div.filler{
 
 }
 
+.quote{
+    font-size: 24px;
+    color: #1f2937;
+    text-align: right;
+    padding: 100px 350px;
+}
+
+.quote #quote{
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    color: #1f2937;
+    margin: 20px 0;
+}
+
+
+
